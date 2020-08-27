@@ -8,14 +8,18 @@ class Nav extends Component {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Ellie and Emi</Link>
           </li>
           <li>
-            <Link to="/profile">Profile</Link>
+            <Link to= "/bows">Bows </Link>
           </li>
           <li>
             <Link to="/public">Public</Link>
           </li>
+          <li>
+            <Link to="/profile">Profile</Link>
+          </li>
+          
           {isAuthenticated() && (
               <li>
               <Link to="/private">Private</Link>

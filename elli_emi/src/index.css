@@ -27,27 +27,36 @@ ul.unstyled {
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 40px;
   overflow: hidden;
-  background-image: linear-gradient(to bottom right, #f0582a, #eb0685);
+  background-image: linear-gradient(to bottom right, #ffe5d9, #e457a4);
 }
 
 nav li {
-  float: left;
+ margin: 0 auto;
+ text-align: center;
+ display: inline-flex
 }
 
 nav li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 nav li a:hover {
-  background-color: #d9390d;
+  background-color: #9d8189;
 }
 
 nav button {
   margin-top: 13px;
 }
+
+/* D8E2DC  light green*/
+/* ffe5d9 beige */
+/* ffcad4  light pink*/
+/* f4acb7  pink*/
+/* 9d8189  brown*/
+/* https://coolors.co/d8e2dc-ffe5d9-ffcad4-f4acb7-9d8189 */
