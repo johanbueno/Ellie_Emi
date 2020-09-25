@@ -7,6 +7,7 @@ import Auth from "./Auth/Auth";
 import Callback from "./Callback";
 import Public from "./Public";
 import Private from "./Private";
+import Footer from "./Footer";
 
 class App extends Component {
   constructor(props) {
@@ -48,6 +49,7 @@ class App extends Component {
               )
             }
           />
+          <Footer/>
         </div>
       </>
     );

@@ -1,27 +1,30 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+// import { Navbar, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
+
+
 
 class Nav extends Component {
   render() {
     const { isAuthenticated, login, logout } = this.props.auth;
     return (
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Ellie and Emi</Link>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <ul className="navbar-nav mr-auto  nav-ul">
+          <li className="nav-item" >
+            <Link className="navbar-brand" to="/">Ellie and Emi</Link>
           </li>
-          <li>
-            <Link to= "/bows">Bows </Link>
+          <li className="nav-item">
+            <Link className="nav-link" to="/bows">Bows </Link>
           </li>
-          <li>
-            <Link to="/public">Public</Link>
+          <li className="nav-item">
+            <Link className="nav-link" to="/public">Public</Link>
           </li>
-          <li>
-            <Link to="/profile">Profile</Link>
+          <li className="nav-item">
+            <Link className="nav-link" to="/profile">Profile</Link>
           </li>
-          
+
           {isAuthenticated() && (
-              <li>
+            <li>
               <Link to="/private">Private</Link>
             </li>
           )}
@@ -31,6 +34,7 @@ class Nav extends Component {
             </button>
           </li>
         </ul>
+
       </nav>
     );
   }
