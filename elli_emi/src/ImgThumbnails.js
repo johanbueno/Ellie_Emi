@@ -10,7 +10,9 @@ import sunflower from './img/sunflower.jpeg';
 import rainbow from './img/Rainbow.jpeg';
 import september from './img/september.jpeg';
 
+
 function Images()  {
+
     
         return (
             <div>

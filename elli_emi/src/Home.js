@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Jumbotron from './Jumbotron';
 import Images from './ImgThumbnails';
+import Likes from './Likes';
+
 class Home extends Component {
     render() {
         const { isAuthenticated, login } = this.props.auth;
@@ -17,6 +19,7 @@ class Home extends Component {
                 <br></br>
                 <Jumbotron/>
                 <Images/>
+                <Likes/>
 
             </div>
         );
