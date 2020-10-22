@@ -9,6 +9,8 @@ import sister from './img/Sister.jpeg';
 import sunflower from './img/sunflower.jpeg';
 import rainbow from './img/Rainbow.jpeg';
 import september from './img/september.jpeg';
+// import Likes from './Likes';
+
 
 
 function Images()  {
@@ -16,7 +18,10 @@ function Images()  {
     
         return (
             <div>
-                <img src={Floral} alt="" class="img-thumbnail  rounded float-left"></img>
+
+                <img  src={Floral} alt="" class="img-thumbnail  rounded float-left">
+                </img>
+                
                 <img src={Emi} alt="" class="img-thumbnail"></img>
                 <img src={Floral2} alt="" class="img-thumbnail"></img>
                 <img src={Floral3} alt="" class="img-thumbnail"></img>

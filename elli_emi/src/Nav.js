@@ -33,8 +33,9 @@ class Nav extends Component {
               {isAuthenticated() ? "Log Out" : "Log In"}
             </button>
           </li>
+          <pre>{(new Date).toLocaleTimeString()}</pre>
         </ul>
-
+       
       </nav>
     );
   }

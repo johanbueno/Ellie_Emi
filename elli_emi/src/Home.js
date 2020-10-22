@@ -17,9 +17,13 @@ class Home extends Component {
                     )}
             
                 <br></br>
+                
                 <Jumbotron/>
-                <Images/>
                 <Likes/>
+                <Images/>
+               
+               
+
 
             </div>
         );
