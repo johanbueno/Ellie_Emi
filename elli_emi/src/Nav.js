@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import InputElement from "./input";
 // import { Navbar, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
 
 
@@ -32,6 +33,7 @@ class Nav extends Component {
             <button onClick={isAuthenticated() ? logout : login}>
               {isAuthenticated() ? "Log Out" : "Log In"}
             </button>
+            <InputElement />
           </li>
           <pre>{(new Date).toLocaleTimeString()}</pre>
         </ul>

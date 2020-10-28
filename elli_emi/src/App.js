@@ -8,6 +8,7 @@ import Callback from "./Callback";
 import Public from "./Public";
 import Private from "./Private";
 import Footer from "./Footer";
+import Bows from "./Bows";
 
 class App extends Component {
   constructor(props) {
@@ -22,15 +23,15 @@ class App extends Component {
           <Route
             path="/"
             exact
-            render={props => <Home auth={this.auth} {...props} />}
+            render={(props) => <Home auth={this.auth} {...props} />}
           />
           <Route
             path="/callback"
-            render={props => <Callback auth={this.auth} {...props} />}
+            render={(props) => <Callback auth={this.auth} {...props} />}
           />
           <Route
             path="/profile"
-            render={props =>
+            render={(props) =>
               this.auth.isAuthenticated() ? (
                 <Profile auth={this.auth} {...props} />
               ) : (
@@ -39,9 +40,10 @@ class App extends Component {
             }
           />
           <Route path="/public" component={Public} />
+          <Route path="/bows" component={Bows} />
           <Route
             path="/private"
-            render={props =>
+            render={(props) =>
               this.auth.isAuthenticated() ? (
                 <Private auth={this.auth} {...props} />
               ) : (
@@ -49,7 +51,7 @@ class App extends Component {
               )
             }
           />
-          <Footer/>
+          <Footer />
         </div>
       </>
     );

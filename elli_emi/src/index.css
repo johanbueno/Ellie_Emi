@@ -13,7 +13,7 @@ h2,
 h3 {
   color: #f0582a;
 }
-.nav-ul{
+.nav-ul {
   width: -webkit-fill-available;
   margin: 0px;
 }
@@ -22,27 +22,24 @@ button {
   margin: 5px;
 }
 
- ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-} 
-#foot  {
+}
+#foot {
   position: relative;
   display: -webkit-box;
   margin: 10px;
   width: 100%;
 }
-#foot div{
+#foot div {
   margin: 0 auto;
   margin-top: 20px;
-  
- 
 }
-#brand{
-text-align: center;
+#brand {
+  text-align: center;
 }
-
 
 nav ul {
   list-style-type: none;
@@ -53,9 +50,9 @@ nav ul {
 }
 
 nav li {
- margin: 0 auto;
- text-align: center;
- display: inline-flex
+  margin: 0 auto;
+  text-align: center;
+  display: inline-flex;
 }
 
 nav li a {
@@ -74,28 +71,32 @@ nav button {
   margin-top: 13px;
 }
 #home {
-  color:#9d8189;
-
+  color: #9d8189;
+}
+.jumbotron {
+  text-align: center;
+  background-color: #ffe5d9;
 }
 #main {
-  width: 100%;
+  width: 60%;
   height: auto;
+  position: relative;
+  margin: 0 auto;
 }
 .img-thumbnail {
   width: 200px;
   height: 200px;
-  margin-right:20px ; 
+  margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-style: dotted  ;
+  border-style: dotted;
   border-width: 5px;
   border-color: #9d8189;
-  
 }
 .footer {
   min-height: 80px;
   background: #f4acb7;
-  position: relative;
+  position: sticky;
   width: 100%;
   margin-top: 10px;
   bottom: 0;
