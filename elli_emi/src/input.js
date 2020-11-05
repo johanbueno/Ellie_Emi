@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 
+const InputElement = () => {
+  const [inputText, setInputText] = useState("");
 
-const InputElement =()=> {
-const [inputText,setInputText] = useState("");
-   
-    return (
+  return (
     <>
-    <input onChange={(e) => {setInputText(e.target.value)
-    }}
-    placeholder="finding bows type here...." />
+      <input
+        onChange={(e) => {
+          setInputText(e.target.value);
+        }}
+        placeholder="finding bows type here...."
+      />
 
-    {inputText}
-   </>
-    );
-}
+      {inputText}
+    </>
+  );
+};
 export default InputElement;

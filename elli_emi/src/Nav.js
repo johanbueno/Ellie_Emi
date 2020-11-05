@@ -3,25 +3,31 @@ import { Link } from "react-router-dom";
 import InputElement from "./input";
 // import { Navbar, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
 
-
-
 class Nav extends Component {
   render() {
     const { isAuthenticated, login, logout } = this.props.auth;
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <ul className="navbar-nav mr-auto  nav-ul">
-          <li className="nav-item" >
-            <Link className="navbar-brand" to="/">Ellie and Emi</Link>
+          <li className="nav-item">
+            <Link className="navbar-brand" to="/">
+              Ellie and Emi
+            </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/bows">Bows </Link>
+            <Link className="nav-link" to="/bows">
+              Bows{" "}
+            </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/public">Public</Link>
+            <Link className="nav-link" to="/public">
+              Public
+            </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/profile">Profile</Link>
+            <Link className="nav-link" to="/profile">
+              Profile
+            </Link>
           </li>
 
           {isAuthenticated() && (
@@ -35,9 +41,8 @@ class Nav extends Component {
             </button>
             <InputElement />
           </li>
-          <pre>{(new Date).toLocaleTimeString()}</pre>
+          <pre>{new Date().toLocaleTimeString()}</pre>
         </ul>
-       
       </nav>
     );
   }

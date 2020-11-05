@@ -4,7 +4,7 @@ import Main from "./img/Main.jpeg";
 function Jumbotron() {
   return (
     <div className="jumbotron">
-      <img id="main" src={Main} />
+      <img id="main" alt="main" src={Main} />
     </div>
   );
 }

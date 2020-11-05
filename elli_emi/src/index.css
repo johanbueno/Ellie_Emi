@@ -94,11 +94,10 @@ nav button {
   border-color: #9d8189;
 }
 .footer {
-  min-height: 80px;
+  min-height: 60px;
   background: #f4acb7;
-  position: sticky;
+  position: relative;
   width: 100%;
-  margin-top: 10px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -106,11 +105,27 @@ nav button {
 
 .footer span {
   position: relative;
+
   bottom: 0;
   left: 0;
   right: 0;
   padding: 3px;
   background: #f4acb7;
+}
+#bnwpics img {
+  width: 300px;
+  height: 450px;
+  margin: 10px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 20px #888888;
+}
+#bnwpics {
+  text-align: center;
+}
+.Fall-collection {
+  position: relative;
+  margin-bottom: 10px;
 }
 /* D8E2DC  light green*/
 /* ffe5d9 beige */

@@ -8,8 +8,8 @@ import Callback from "./Callback";
 import Public from "./Public";
 import Private from "./Private";
 import Footer from "./Footer";
-import Bows from "./Bows";
 import PageNotFound from "./PageNotFound";
+import ImageOnMouseOver from "./pages/ImageChangeOnMouseOver";
 
 class App extends Component {
   constructor(props) {
@@ -42,7 +42,7 @@ class App extends Component {
               }
             />
             <Route path="/public" component={Public} />
-            <Route path="/bows" component={Bows} />
+            <Route path="/bows" component={ImageOnMouseOver} />
             <Route
               path="/private"
               render={(props) =>
