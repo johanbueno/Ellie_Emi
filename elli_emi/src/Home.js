@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Jumbotron from "./Jumbotron";
+import Jumbotron from "./jumbotron/Jumbotron";
 import Images from "./ImgThumbnails";
 import Likes from "./Likes";
 import InputElement from "./input";
@@ -16,9 +16,7 @@ class Home extends Component {
         ) : (
           <button onClick={login}>Log In</button>
         )}
-
         <br></br>
-
         <Jumbotron />
         <Likes />
         <InputElement />

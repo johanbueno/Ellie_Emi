@@ -1,5 +1,6 @@
 import React from "react";
-import Main from "./img/Main.jpeg";
+import Main from "../img/Main.jpeg";
+import "./Jumbotron.css";
 
 function Jumbotron() {
   return (

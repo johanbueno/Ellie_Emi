@@ -7,7 +7,7 @@ function Display(props) {
 function Button(props) {
   return (
     <button onClick={props.onClickFunction}>
-      <span role="img"> ❤️ </span>
+      <span role="img">❤️</span>
     </button>
   );
 }

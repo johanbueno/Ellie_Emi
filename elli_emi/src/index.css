@@ -4,18 +4,10 @@ body {
   font-family: sans-serif;
 }
 
-.body {
-  margin: 15px;
-}
-
 h1,
 h2,
 h3 {
   color: #f0582a;
-}
-.nav-ul {
-  width: -webkit-fill-available;
-  margin: 0px;
 }
 
 button {
@@ -27,26 +19,16 @@ ul {
   margin: 0;
   padding: 0;
 }
-#foot {
-  position: relative;
-  display: -webkit-box;
-  margin: 10px;
-  width: 100%;
-}
-#foot div {
-  margin: 0 auto;
-  margin-top: 20px;
-}
+
 #brand {
   text-align: center;
 }
 
 nav ul {
+  width: -webkit-fill-available;
   list-style-type: none;
-  margin: 0;
   padding: 40px;
   overflow: hidden;
-  background-image: linear-gradient(to bottom right, #ffe5d9, #e457a4);
 }
 
 nav li {
@@ -63,8 +45,9 @@ nav li a {
   text-decoration: none;
 }
 
-nav li a:hover {
-  background-color: #9d8189;
+.navbar {
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #ffe5d9, #e457a4);
 }
 
 nav button {
@@ -93,25 +76,6 @@ nav button {
   border-width: 5px;
   border-color: #9d8189;
 }
-.footer {
-  min-height: 60px;
-  background: #f4acb7;
-  position: relative;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.footer span {
-  position: relative;
-
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 3px;
-  background: #f4acb7;
-}
 #bnwpics img {
   width: 300px;
   height: 450px;
@@ -125,7 +89,7 @@ nav button {
 }
 .Fall-collection {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 200px;
 }
 /* D8E2DC  light green*/
 /* ffe5d9 beige */

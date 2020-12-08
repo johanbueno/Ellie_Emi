@@ -1,0 +1,26 @@
+.footer {
+  min-height: 60px;
+  background: #f4acb7;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer span {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #f4acb7;
+}
+#foot {
+  position: relative;
+  display: -webkit-box;
+  margin: 0px;
+  width: 100%;
+}
+#foot div {
+  margin: 0 auto;
+  margin-top: 20px;
+}

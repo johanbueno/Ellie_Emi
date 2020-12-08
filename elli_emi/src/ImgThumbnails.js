@@ -9,7 +9,6 @@ import Sisters from "./img/Sister copy.jpg";
 import sunflower from "./img/sunflower.jpeg";
 import rainbow from "./img/Rainbow.jpeg";
 import september from "./img/september.jpeg";
-// import Likes from './Likes';
 
 function Images() {
   return (
