@@ -10,6 +10,7 @@ import Private from "./Private";
 import Footer from "./Footer/Footer";
 import PageNotFound from "./PageNotFound";
 import ImageOnMouseOver from "./pages/ImageChangeOnMouseOver";
+import shopping from "./shopping/shopping";
 
 class App extends Component {
   constructor(props) {
@@ -43,6 +44,7 @@ class App extends Component {
             />
             <Route path="/public" component={Public} />
             <Route path="/bows" component={ImageOnMouseOver} />
+            <Route path="/shopping" component={shopping} />
             <Route
               path="/private"
               render={(props) =>

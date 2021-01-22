@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": "fall1",
+      "title": "Fall collection Pumkin spice",
+      "image": "/images/pumpkin.jpeg",
+      "description": "This is for all the latest fall trends",
+      "availableStyles": ["headbands", "pin"],
+      "price": 7.99
+    },
+    {
+      "id": "fall2",
+      "title": "Fall collection floral",
+      "image": "./images/Floral.jpeg",
+      "description": "This is for all the latest fall trends",
+      "availableStyles": ["headbands", "pin"],
+      "price": 8.99
+    },
+    {
+      "id": "fall3",
+      "title": "Fall collection Rainbow",
+      "image": "./images/Rainbow.jpeg",
+      "description": "This is for all the latest fall trends",
+      "availableStyles": ["headbands", "pin"],
+      "price": 9.99
+    },
+    {
+      "id": "fall4",
+      "title": "Fall collection Roses",
+      "image": "./images/Roses.jpeg",
+      "description": "This is for all the latest fall trends",
+      "availableStyles": ["headbands", "pin"],
+      "price": 7.99
+    },
+    {
+      "id": "fall5",
+      "title": "Fall collection sunflower",
+      "image": "./images/sunflower.jpeg",
+      "description": "This is for all the latest fall trends",
+      "availableStyles": ["headbands", "pin"],
+      "price": 5.99
+    }
+  ]
+}
