@@ -16,14 +16,7 @@
       "availableStyles": ["headbands", "pin"],
       "price": 8.99
     },
-    {
-      "id": "fall3",
-      "title": "Fall collection Rainbow",
-      "image": "./images/Rainbow.jpeg",
-      "description": "This is for all the latest fall trends",
-      "availableStyles": ["headbands", "pin"],
-      "price": 9.99
-    },
+
     {
       "id": "fall4",
       "title": "Fall collection Roses",

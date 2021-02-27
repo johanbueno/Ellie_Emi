@@ -1,3 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+}
+body,
+input,
+select,
+button,
+textarea {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #ff8000;
+}
+header {
+  grid-area: header;
+  background-color: #203040;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+  background-color: #203040;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -9,20 +69,20 @@
   flex: 1 20rem;
 }
 
+/* products */
 .products {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 .products li {
-  flex: 1 1 29rem;
+  flex: 0 1 29rem;
   height: 47rem;
   padding: 1rem;
-  margin: 1rem;
 }
 .product {
   display: flex;
@@ -34,13 +94,11 @@
   max-width: 37rem;
   max-height: 37rem;
 }
-
 .product-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .product-price div,
 .product-price button {
   text-align: center;
@@ -51,13 +109,13 @@
 }
 .button {
   padding: 1rem;
-  border: 0.1rem #9d8189 solid;
-  background-color: antiquewhite;
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f0f0f0;
   cursor: pointer;
 }
 .button:hover {
-  border: 0.2rem #808080 solid;
+  border: 0.1rem #808080 solid;
 }
 .button.primary {
-  background-color: #ffc000;
+  background-color: #f0c040;
 }
